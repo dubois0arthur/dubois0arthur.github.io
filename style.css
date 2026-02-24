@@ -41,3 +41,23 @@ footer {
     padding: 20px;
     color: #aaa;
 }
+
+.media {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  display: block;
+  margin: 16px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #161a22;
+  padding: 16px;
+  border-radius: 10px;
+}
